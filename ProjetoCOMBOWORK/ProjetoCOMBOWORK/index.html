@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homepage</title>
+
+    <style>
+        #menu{
+                       
+            font-size: 20px;
+            columns: #ffffff;
+            font-weight: bold;
+            float: right;
+            margin: 0px;
+
+        }
+
+        #cinza{
+            color: #ffffff;
+        }
+        
+        #imgPrincipal{
+            /*overflow: hidden;*/
+            width: 100%;
+            height: 100%;
+            position: relative;
+    
+        }
+        
+        #imagem {
+        position: absolute;
+        width: 100%;
+
+        }
+        
+        #texto{
+        position: absolute;
+        margin-top: -30px;
+        align-items: center
+        }
+        </style>
+
+</head>
+<body>
+    
+    <div>
+    <div id="imgPrincipal">
+        <img id="imagem" src="C:\UFAL-SI\7º PERIODO\WEB1\Projeto COMBOWORK\imagens\fotocapa.jpg" alt="">
+    </div>
+    
+   
+    <div id="texto">
+        <img src="C:\UFAL-SI\7º PERIODO\WEB1\Projeto COMBOWORK\imagens\logo.png" alt="">
+           
+        <div id="menu">
+            <ul>
+                <li>
+                    <a id="cinza" href="">Anúncie seu espaço </a> |
+                    <a id="cinza" href="">Ajuda</a> |
+                    <a id="cinza" href="">Cadastrar-se</a> |
+                    <a id="cinza" href="" >Entrar</a> 
+                </li>
+            </ul>
+        </div>
+        <container>
+            <p>Viajando a trabalho?
+            Ache o workplace e a hospedagem ideal para você!</p>
+            <h6>Cidade</h6>
+            <textarea name="Destino" id="" cols="35" rows="1"></textarea>
+            <h6>Area de interesse</h6>
+            <textarea name="Setor, Empresa, Tecnologia, etc" id="" cols="35" rows="1"></textarea>
+            <h6>Data</h6>
+            <textarea name="dd/mm/aaaa" id="" cols="35" rows="1"></textarea>
+            <br>    
+            <button>Buscar</button>
+        </container>
+    </div>
+</div>
+</body>
+</html>
